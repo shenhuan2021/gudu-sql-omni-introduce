@@ -1,127 +1,72 @@
-# 🚀 Gudu SQL Omni — SQL Lineage Analysis Guides & Tutorials
+# 🚀 Gudu SQL Omni — SQL Lineage Analysis Hub
 
-Welcome to the **Gudu SQL Omni Knowledge Hub**.
+Welcome to the **Gudu SQL Omni knowledge repository**.
 
-This repository is dedicated to sharing **practical guides, real-world examples, and deep insights** on SQL lineage analysis using the Gudu SQL Omni VS Code extension.
+This repo is created to share insights, tutorials, and best practices around **SQL lineage analysis**, **column-level lineage**, and **data engineering workflows**.
 
----
-
-## 🔍 What You’ll Learn
-
-- How to analyze **SQL column-level lineage**
-- How to perform **impact analysis in complex ETL pipelines**
-- How to visualize **data relationships (ER diagrams)**
-- How to understand **large and messy SQL queries**
-- Best practices for **data engineers & analytics teams**
+> 🚧 This repository is currently under construction. Articles will be added continuously.
 
 ---
 
-## 🧠 Why SQL Lineage Matters
+## 🔍 What is SQL Lineage?
 
-In modern data systems:
+SQL lineage refers to tracking how data flows across queries, tables, and transformations — especially at the **column level**.
 
-- SQL logic becomes increasingly complex  
-- Data flows across multiple layers (ODS → DWD → DWS → ADS)  
-- Debugging data issues becomes time-consuming  
+It helps answer critical questions like:
 
-👉 Without proper lineage analysis:
-
-- You **don’t know where data comes from**
-- You **can’t estimate impact of changes**
-- You **waste hours reading SQL manually**
+- Where does this field come from?
+- What logic generated this data?
+- What will break if I change this column?
 
 ---
 
 ## ⚡ What is Gudu SQL Omni?
 
-**Gudu SQL Omni** is a powerful **VS Code extension** that enables:
+**Gudu SQL Omni** is a VS Code extension for:
 
-- Column-level lineage tracking  
+- Column-level lineage analysis  
 - Impact analysis  
 - SQL parsing across 30+ dialects  
 - ER diagram visualization  
 
-🔐 **100% Offline — No Data Upload Required**
-
-Perfect for enterprise environments with strict data security policies.
-
----
-
-## 📚 Articles & Tutorials
-
-> Continuously updated 👇
-
-### Beginner Guides
-- [Introduction to SQL Lineage Analysis](./articles/sql-lineage-introduction.md)
-- [How to Use Gudu SQL Omni in VS Code](./articles/getting-started.md)
-
-### Advanced Topics
-- [Column-Level Lineage Deep Dive](./articles/column-lineage.md)
-- [Impact Analysis in ETL Pipelines](./articles/impact-analysis.md)
-- [Handling Complex SQL (CTE / Window Functions)](./articles/complex-sql.md)
-
-### Real-World Use Cases
-- [Debugging Data Issues with Lineage](./articles/debugging.md)
-- [Understanding Legacy SQL in Minutes](./articles/legacy-sql.md)
-
----
-
-## 🧩 Who Is This For?
-
-- Data Engineers  
-- BI Developers  
-- Data Analysts  
-- Data Governance Teams  
-- Anyone working with SQL at scale  
-
----
-
-## ⚖️ Why Not Traditional Lineage Tools?
-
-| Feature | Gudu SQL Omni |
-|--------|--------------|
-| Offline Support | ✅ Yes |
-| Easy Setup | ✅ VS Code Plugin |
-| SQL Dialects | ✅ 30+ |
-| Cost | ✅ Lightweight / Flexible |
-
----
-
-## 💡 Key Benefits
-
-- 🚀 Analyze SQL in seconds  
-- 🔍 Understand column-level data flow  
-- 🧠 Reduce cognitive load when reading SQL  
-- 🛡️ Keep your data secure (local analysis)  
-- ⚡ Improve productivity dramatically  
+🔐 Fully offline — no SQL upload required.
 
 ---
 
 ## 🔗 Official Links
 
-- Website: https://gudu-sql-omni.gudusoft.com/  
-- VS Code Extension: https://marketplace.visualstudio.com/items?itemName=gudusoftware.gudu-sql-omni  
+- 🌐 Website: https://gudu-sql-omni.gudusoft.com/  
+- 🔍 SQLFlow Demo: https://sqlflow.gudusoft.com/#/  
 
 ---
 
-## 📈 SEO Keywords (for search engines)
+## 📚 Content (Coming Soon)
 
-SQL lineage analysis, column lineage, data lineage tool, SQL parser, ETL debugging, impact analysis, VS Code SQL plugin, data engineering tools
+This repository will include:
+
+- SQL lineage tutorials  
+- Real-world use cases  
+- Complex SQL analysis (CTE / window functions)  
+- Impact analysis guides  
+- Tool comparisons  
 
 ---
 
-## 🤝 Contributing
+## 🎯 Who Is This For?
 
-Feel free to:
+- Data Engineers  
+- BI Developers  
+- Data Analysts  
+- Anyone working with complex SQL  
 
-- Submit articles  
-- Share use cases  
-- Improve documentation  
+---
 
-Let’s build the **best SQL lineage knowledge base** together.
+## 📈 Keywords
+
+SQL lineage, column lineage, data lineage, SQL parser, ETL debugging, impact analysis, data engineering tools
 
 ---
 
 ## ⭐ Star This Repo
 
-If you find this helpful, please give it a ⭐ — it helps more developers discover this tool!
+If you're interested in SQL lineage and data engineering tools, feel free to ⭐ this repo to stay updated.
