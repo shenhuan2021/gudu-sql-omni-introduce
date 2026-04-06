@@ -52,6 +52,10 @@ This repository will include:
 
 ---
 
+## 📚 Articles
+
+- [SQL Lineage Analysis in VS Code (Gudu SQL Omni)](./articles/gudu-sql-omni-lineage-analysis-vscode.md)
+
 ## 🎯 Who Is This For?
 
 - Data Engineers  
